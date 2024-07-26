@@ -48,17 +48,17 @@ const GraficoVendas = ({ data }: { data: IVenda[] }) => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Line type="monotone" dataKey="pago" stroke="#A36AF3" strokeWidth={3} />
+        <Line type="monotone" dataKey="pago" stroke="#28F629" strokeWidth={3} />
         <Line
           type="monotone"
           dataKey="processando"
-          stroke="#FBCB21"
+          stroke="#073376"
           strokeWidth={3}
         />
         <Line
           type="monotone"
           dataKey="falha"
-          stroke="#FF7300"
+          stroke="#FF0000"
           strokeWidth={3}
         />
       </LineChart>
